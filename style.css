@@ -84,20 +84,28 @@ button {
 }
 
 .image {
-    background-color: #6D747D;
-    width: 600px;
-    min-height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     flex-shrink: 0;
+}
+
+.image p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    align-self: flex-end;
+    font-style: italic;
+}
+
+.image a {
+    text-decoration: underline;
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .infos {
