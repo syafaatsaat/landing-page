@@ -26,12 +26,13 @@ ul {
 
 .subtext {
     margin: 10px 0;
+    font-size: 18px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -76,7 +77,7 @@ button {
 }
 
 .intro {
-    padding: 60px 200px;
+    padding: 150px 200px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -84,9 +85,17 @@ button {
 
 .image {
     background-color: #6D747D;
-    width: 400px;
+    width: 600px;
+    min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
