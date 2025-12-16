@@ -17,14 +17,36 @@ ul {
     list-style: none;
 }
 
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.subtext {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 72px;
+    flex-shrink: 0;
+    padding: 12px 200px;
 }
 
-.header, .footer, a {
+.header, .footer, a, .intro {
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -43,5 +65,28 @@ ul {
 .footer {
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
     padding: 24px 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.intro {
+    padding: 60px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.image {
+    background-color: #6D747D;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
