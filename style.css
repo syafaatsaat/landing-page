@@ -39,3 +39,9 @@ ul {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
