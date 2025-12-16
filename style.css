@@ -67,7 +67,7 @@ button {
     display: flex;
     justify-content: center;
     flex-shrink: 0;
-    padding: 24px 0;
+    padding: 40px 0;
 }
 
 .body {
@@ -161,4 +161,40 @@ button {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 100px;
+}
+
+.left-side {
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.blue-box .subtext {
+    margin: 0;
+}
+
+.blue-box button {
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
 }
